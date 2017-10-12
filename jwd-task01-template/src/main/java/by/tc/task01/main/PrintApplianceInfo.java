@@ -15,10 +15,8 @@ public class PrintApplianceInfo {
 			System.out.println(appliance.toString());
 		}
 
-		// you may add your own code here
-		
+
 	}
 	
-	// you may add your own code here
 
 }

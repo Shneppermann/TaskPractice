@@ -20,7 +20,6 @@ public class ApplianceServiceImpl implements ApplianceService{
 		
 		Appliance appliance = applianceDAO.find(criteria);
 		
-		// you may add your own code here
 
 		return appliance;
 
@@ -29,4 +28,3 @@ public class ApplianceServiceImpl implements ApplianceService{
 
 }
 
-//you may add your own new classes

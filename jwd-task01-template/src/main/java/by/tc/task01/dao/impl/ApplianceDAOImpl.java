@@ -42,8 +42,10 @@ public class ApplianceDAOImpl implements ApplianceDAO{
 		}
 		catch(Exception ex){
 			ex.printStackTrace();
+			System.out.println("File not found!");
+			return null;
 		}
-		// you may add your own code here
+
 		if(result!=null) {
 			objectArray=createValues(result,criteria.getApplianceType());
 			CommandCreate command = director.getCommand(criteria.getApplianceType());
@@ -106,4 +108,3 @@ public class ApplianceDAOImpl implements ApplianceDAO{
 
 
 
-//you may add your own new classes

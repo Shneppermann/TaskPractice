@@ -10,7 +10,6 @@ public class Validator {
 	private final static String [] stringVariables = {"OS","FILTER_TYPE","BAG_TYPE","WAND_TYPE","COLOR","FREQUENCY_RANGE"};
 	
 	public static <E> boolean criteriaValidator(Criteria<E> criteria) {
-		// you may add your own code here
 		Map<E, Object> val = new HashMap<E, Object>();
 		val = criteria.getCriteria();
 		double valDouble;
@@ -44,4 +43,3 @@ public class Validator {
 }
 
 
-//you may add your own new classes
